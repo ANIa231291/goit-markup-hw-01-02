@@ -7,3 +7,228 @@
 button{
     cursor: pointer;
 }
+
+.body-main{
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*navigation + header*/
+
+.header-main{
+}
+
+.main-nawigation{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.main-logo{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    
+    letter-spacing: 0.03;
+    text-transform: uppercase;
+}
+
+.logo{
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+   
+    letter-spacing: 0.03;
+    text-transform: uppercase;
+}
+
+
+
+.menu{
+
+}
+
+.menu-item{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02;
+}
+/* adress */
+
+.main-adress{}
+.menu-adres{}
+
+.menu-adress-item{
+    color: var(--SLATE, #434455);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+   
+    letter-spacing: 0.02;
+}
+
+/*Section 1*/
+
+.main-section-one{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    letter-spacing: 0.02;
+}
+.title-efectiwe{}
+
+
+.button-main{
+    color: var(--WHITE, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.64px;
+    
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Section 2*/
+
+.section-benefits{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    letter-spacing: 1.12px;
+}
+.title-two{
+
+}
+/*.menu-item{}*/
+
+.three-title{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 0.4px;
+}
+.paragraph{
+    color: var(--SLATE, #434455);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.32px;
+ }
+ 
+ /* section 3*/
+
+
+.section-three-main{
+     flex-shrink: 0;
+     background: var(--CLOUD, #F4F4FD);
+}
+
+.title-two{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.menu{}
+
+/*list*/
+
+/*li4 .menu-item*/
+
+.foto{
+    display: inline-flex;
+padding-bottom: 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
+border-radius: 0px 0px 4px 4px;
+background: var(--WHITE, #FFF);
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.three-title-foto{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 0.4px;
+}
+
+
+.paragraph-foto{
+    color: var(--SLATE, #434455);
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.32px;
+}
+
+/* Section 4*/
+
+/*.section-four-main{}*/
+
+/*.title-portfolio{}*/
+
+
+/*
+.menu{}
+.menu-item{}*/
+.foto-google{
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+
+/*.three-title{}
+.paragraph{} */
+
+/* Footer*/
+
+.basement{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.paragraph-basement{
+    color: var(--CLOUD, #F4F4FD);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.32px;
+}
+
+.basement-logo{
+    color: var(--CLOUD, #F4F4FD);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
