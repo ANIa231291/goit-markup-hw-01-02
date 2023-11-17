@@ -6,11 +6,13 @@
 }
 button{
     cursor: pointer;
+
 }
 
 .body-main{
     background: #FFF;
     font-family: 'Roboto', sans-serif;
+    color: #434455;
 
 }
 /*navigation + header*/
@@ -72,13 +74,19 @@ button{
 /*Section 1*/
 
 .main-section-one{
+    background-color: #2e2f42; 
     color: var(--WHITE, #FFF);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     letter-spacing: 0.02;
 }
-.title-efectiwe{}
+.title-efectiwe{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em; 
+}
+
 
 
 .button-main{
@@ -87,6 +95,8 @@ button{
     font-size: 16px;
     font-style: normal;
     letter-spacing: 0.64px;
+    background-color:hover #404BBF;
+    background-color:focus #404BBF;
     
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
@@ -96,6 +106,8 @@ button{
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 /* Section 2*/
@@ -108,8 +120,8 @@ button{
     font-style: normal;
     letter-spacing: 1.12px;
 }
-.title-two{
-
+.title-two{ font-weight: 500;
+    line-height: 1.2;
 }
 /*.menu-item{}*/
 
@@ -126,6 +138,7 @@ button{
     font-size: 16px;
     font-style: normal;
     letter-spacing: 0.32px;
+    line-height: 1.5;
  }
  
  /* section 3*/
@@ -144,8 +157,14 @@ button{
     font-style: normal;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    line-height: 1.11;
+    font-weight: 500;
+    line-height: 1.2;
+
 }
-.menu{}
+.menu{
+    background-color: #FFFFFF;
+}
 
 /*list*/
 
@@ -186,7 +205,18 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 /*.section-four-main{}*/
 
-/*.title-portfolio{}*/
+.title-portfolio{
+
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
 
 
 /*
@@ -211,6 +241,28 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 .basement{
     background: var(--NAVY-BLUE, #2E2F42);
 }
+.link-basement{
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.logo-web{
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+
+    display: flex;
+    width: 44px;
+    height: 21px;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .paragraph-basement{
     color: var(--CLOUD, #F4F4FD);
@@ -218,6 +270,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     font-size: 16px;
     font-style: normal;
     letter-spacing: 0.32px;
+    line-height: 1.5;
 }
 
 .basement-logo{
