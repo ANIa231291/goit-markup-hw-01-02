@@ -33,6 +33,10 @@ button{
     
     letter-spacing: 0.03;
     text-transform: uppercase;
+    font-family: "Raleway"
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .logo{
@@ -44,7 +48,9 @@ button{
     letter-spacing: 0.03;
     text-transform: uppercase;
 }
-
+.span-main{
+    color: #2e2f42;
+}
 
 
 .menu{
@@ -58,10 +64,35 @@ button{
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02;
 }
+
+.main-link{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    color: hover #404bbf;
+    color: focus #404bbf
+}
 /* adress */
 
-.main-adress{}
+.main-adress{
+    font-style: normal;
+}
 .menu-adres{}
+
+.main-link-adress{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+    
+.main-link-adress:hower  {
+        color: #404bbf;
+        }
+
+.main-link-adress:focus{
+    color: #404bbf;
+}
+
 
 .menu-adress-item{
     color: var(--SLATE, #434455);
@@ -98,6 +129,7 @@ button{
     background-color:hover #404BBF;
     background-color:focus #404BBF;
     
+
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -120,7 +152,8 @@ button{
     font-style: normal;
     letter-spacing: 1.12px;
 }
-.title-two{ font-weight: 500;
+.title-two{ 
+    font-weight: 500;
     line-height: 1.2;
 }
 /*.menu-item{}*/
@@ -131,6 +164,8 @@ button{
     font-size: 20px;
     font-style: normal;
     letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 .paragraph{
     color: var(--SLATE, #434455);
@@ -159,16 +194,17 @@ button{
     text-transform: capitalize;
     line-height: 1.11;
     font-weight: 500;
-    line-height: 1.2;
+    
 
 }
 .menu{
     background-color: #FFFFFF;
+    
 }
 
 /*list*/
 
-/*li4 .menu-item*/
+/*.menu-item: */
 
 .foto{
     display: inline-flex;
@@ -213,9 +249,9 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 111.111% */
+    line-height: 1.11; /* 111.111% */
     letter-spacing: 0.72px;
-    text-transform: capitalize;
+    text-transform: capitalize;  
 }
 
 
@@ -233,8 +269,14 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     background: var(--WHITE, #FFF);
 }
 
-/*.three-title{}
-.paragraph{} */
+.three-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+/*.paragraph{} */
 
 /* Footer*/
 
@@ -279,9 +321,16 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     font-size: 18px;
     font-style: normal;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
+    text-transform:uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 }
 
+.spsn-basement{
+    color: #f4f4fd;
+}
