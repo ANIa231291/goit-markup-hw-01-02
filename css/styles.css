@@ -28,6 +28,7 @@ button{
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -43,6 +44,7 @@ button{
 
 .span-main{
     color: #2e2f42;
+    
 }
 
 
