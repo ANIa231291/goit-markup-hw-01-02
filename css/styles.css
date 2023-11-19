@@ -225,6 +225,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     font-size: 20px;
     font-style: normal;
     letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 
@@ -284,27 +286,31 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .link-basement{
-    display: inline-flex;
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
-}
-.logo-web{
+
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-
-    display: flex;
-    width: 44px;
-    height: 21px;
-    flex-direction: column;
-    justify-content: center;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color:#4d5ae5
 }
+.span-basement{
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+    color: #f4f4fd 
+}
+
+
 
 .paragraph-basement{
     color: var(--CLOUD, #F4F4FD);
@@ -331,6 +337,4 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     color: #4d5ae5;
 }
 
-.spsn-basement{
-    color: #f4f4fd;
-}
+
