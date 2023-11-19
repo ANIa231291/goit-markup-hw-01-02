@@ -85,13 +85,11 @@ button{
     color:#434455;
 }
     
-.main-link-adress:hover{
+.main-link-adress:hover,
+.main-link-adress:focus{
      color: #404bbf;
         }
 
-.main-link-adress:focus{
-    color: #404bbf;
-}
 
 
 .menu-adress-item{
