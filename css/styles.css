@@ -41,6 +41,7 @@ button{
     letter-spacing: 0.03;
     text-transform: uppercase;
 }
+
 .span-main{
     color: #2e2f42;
 }
@@ -72,7 +73,7 @@ button{
 .main-adress{
     font-style: normal;
 }
-.menu-adres{}
+/*.menu-adres{}*/
 
 .main-link-adress{
     line-height: 1.5;
@@ -80,8 +81,8 @@ button{
     color:#434455;
 }
     
-.main-link-adress:hower  {
-        color: #404bbf;
+.main-link-adress{
+     color:hover #404bbf;
         }
 
 .main-link-adress:focus{
@@ -93,7 +94,6 @@ button{
     color: var(--SLATE, #434455);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-   
     letter-spacing: 0.02;
 }
 
@@ -198,13 +198,13 @@ button{
 /*.list{}*/
 
 
-.menu-item:{
-    background-color: #FFFFFF;
+.menu-item{
+    background: #FFFFFF;
 }
 
 .foto{
-justify-content: center;
-background: var(--WHITE, #FFF);}
+    justify-content: center;
+    background: var(--WHITE, #FFF);}
 
 .three-title-foto{
 
@@ -215,7 +215,7 @@ background: var(--WHITE, #FFF);}
     font-style: normal;
     letter-spacing: 0.4px;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.2;
 }
 
 
@@ -278,11 +278,11 @@ background: var(--WHITE, #FFF);}
 .link-basement{
 
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
