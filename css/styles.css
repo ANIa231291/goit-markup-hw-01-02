@@ -1,6 +1,8 @@
+
 .list{
     list-style-type:none;
 }
+
 .link{
     text-decoration:none;
 }
@@ -37,8 +39,7 @@ button{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
-   
-    letter-spacing: 0.03;
+    letter-spacing:0.03em;
     text-transform: uppercase;
 }
 
@@ -55,7 +56,7 @@ button{
     font-family:  'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5; /* 150% */
-    letter-spacing: 0.02;
+    letter-spacing:0.02em;
 }
 .menu-item:hover{
     color: #404bbf;
@@ -101,7 +102,7 @@ button{
     color: var(--SLATE, #434455);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    letter-spacing: 0.02;
+    letter-spacing:0.02em;
 }
 
 /*Section 1*/
@@ -112,7 +113,7 @@ button{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
-    letter-spacing: 0.02;
+    letter-spacing:0.02em;
 }
 .title-efectiwe{
     font-size: 56px;
