@@ -26,10 +26,7 @@ button{
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    
-    letter-spacing: 0.03;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -37,7 +34,7 @@ button{
 
 .logo{
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
    
@@ -49,9 +46,9 @@ button{
 }
 
 
-.menu{
+/*.menu{
 
-}
+}*/
 
 .menu-item{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -290,7 +287,7 @@ background: var(--WHITE, #FFF);}
 .logo-main-studio{
     display: inline-flex;
     flex-shrink: 0;
-    
+
 }
 
 
